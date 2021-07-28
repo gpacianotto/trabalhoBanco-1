@@ -7,7 +7,7 @@ export default function Home(){
 
         return (
     <>
-        <h1 className="m-2" style={{fontFamily: "Helvetica", fontWeight: "900"}}>1000 Casas Store<i class="fa fa-shopping-cart ml-4"></i></h1>
+        <h1 className="m-2" style={{fontFamily: "Helvetica", fontWeight: "900"}}>K-asas Store<i class="fa fa-shopping-cart ml-4"></i></h1>
         
             <Table/>
         
