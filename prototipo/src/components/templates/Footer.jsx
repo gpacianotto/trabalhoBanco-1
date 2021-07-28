@@ -6,6 +6,6 @@ export default props =>
     <footer className="footer">
         <span>
             Desenvolvido  por
-          <strong> Equipe Games Plus Ultra</strong>
+          <strong> 1000 Casas Store</strong>
         </span>
     </footer>

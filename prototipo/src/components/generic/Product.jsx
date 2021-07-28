@@ -114,13 +114,13 @@ export default function Product(props){
 
     
     return (<>
-        <Row className="text-center m-3 " style={{backgroundColor: "white"}}>
+        <Row className="text-center m-3 " style={{backgroundColor: "black"}}>
 
             
             {productsShow.map(item =>(
                 <>
             
-                <Col className="text-center p-3 m-3" style={{border: "1px solid black", borderRadius: "10px"}} lg="2">
+                <Col className="text-center bg-dark text-white p-3 m-3" style={{border: "1px solid black", borderRadius: "10px"}} lg="2">
                     <img src={item.image} style={{height:"100px", width: "100px"}}></img>
                     <h4>{item.title}</h4>
                     <h5>{Currency(item.price, { separator: ' ' }).format()}</h5>
